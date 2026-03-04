@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #881B0D;
+  --color-brand-light: #A32A1B;
+  --color-brand-dark: #6B150A;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-display: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-zinc-900 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/80 backdrop-blur-md border-b border-zinc-200/50;
+}
+
+.cinematic-spacing {
+  @apply py-24 md:py-32 lg:py-40;
+}
+
+.editorial-grid {
+  @apply grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12;
+}
+
+/* Custom scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 rounded-full hover:bg-zinc-400 transition-colors;
+}
