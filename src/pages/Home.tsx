@@ -134,14 +134,21 @@ export function Home() {
             <h2 className="text-4xl md:text-6xl font-serif text-zinc-900">Where We Serve</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {SERVICE_AREAS.slice(0, 6).map((area, i) => (
+            {[
+              { area: 'Navarre & Gulf Breeze', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800&h=500' },
+              { area: 'Destin', img: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800&h=500' },
+              { area: 'Fort Walton Beach', img: 'https://picsum.photos/seed/Fort Walton Beach/800/500' },
+              { area: 'Niceville', img: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&q=80&w=800&h=500' },
+              { area: 'N. Santa Rosa County', img: 'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&q=80&w=800&h=500' },
+              { area: 'N. Santa Rosa Beach', img: 'https://picsum.photos/seed/N. Santa Rosa Beach/800/500' },
+            ].map(({ area, img }, i) => (
               <motion.div
                 key={area}
                 whileHover={{ y: -10 }}
                 className="group relative aspect-[16/10] rounded-2xl overflow-hidden cursor-pointer"
               >
                 <img
-                  src={`https://picsum.photos/seed/${area}/800/500`}
+                  src={img}
                   alt={area}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
