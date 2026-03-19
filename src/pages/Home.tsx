@@ -140,7 +140,7 @@ export function Home() {
               { area: 'Fort Walton Beach', img: 'https://picsum.photos/seed/Fort Walton Beach/800/500' },
               { area: 'Niceville', img: 'https://images.unsplash.com/photo-1638660173594-a4e095833d49?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'N. Santa Rosa County', img: 'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&q=80&w=800&h=500' },
-              { area: 'N. Santa Rosa Beach', img: 'https://picsum.photos/seed/N. Santa Rosa Beach/800/500' },
+              { area: 'N. Santa Rosa Beach', img: 'https://images.unsplash.com/photo-1611156221259-14a31aa9a9d4?auto=format&fit=crop&q=80&w=800&h=500' },
             ].map(({ area, img }, i) => (
               <motion.div
                 key={area}
