@@ -10,9 +10,10 @@ export interface Agent {
 export const AGENTS: Agent[] = [
   {
     id: '1',
-    name: 'Ashley Brown',
+    name: 'Abigail Wallace',
     title: 'Realtor®',
-    image: 'https://pullumregroup.s3.us-east-1.amazonaws.com/Ashley+Brown.jpg',
+    image: 'https://pullumregroup.s3.us-east-1.amazonaws.com/Abigail+Wallace.jpg',
+    email: 'aswallace1010@gmail.com',
   },
   {
     id: '2',
@@ -22,9 +23,11 @@ export const AGENTS: Agent[] = [
   },
   {
     id: '3',
-    name: 'Bill Crawfords',
+    name: 'Bryan Weatherman',
     title: 'Realtor®',
-    image: 'https://pullumregroup.s3.us-east-1.amazonaws.com/Bill+Crawfords.jpg',
+    image: 'https://pullumregroup.s3.us-east-1.amazonaws.com/Bryan+Weatherman.jpg',
+    phone: '8507369832',
+    email: 'bweatherman77@gmail.com',
   },
   {
     id: '4',
@@ -52,12 +55,6 @@ export const AGENTS: Agent[] = [
   },
   {
     id: '8',
-    name: 'Phil Price',
-    title: 'Realtor®',
-    image: 'https://pullumregroup.s3.us-east-1.amazonaws.com/Phil+Price.jpg',
-  },
-  {
-    id: '9',
     name: 'Samantha Smith',
     title: 'Realtor®',
     image: 'https://pullumregroup.s3.us-east-1.amazonaws.com/Samantha+Smith.jpg',
