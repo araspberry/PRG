@@ -136,7 +136,7 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { area: 'Navarre & Gulf Breeze', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800&h=500' },
-              { area: 'Destin', img: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800&h=500' },
+              { area: 'Destin', img: 'https://images.unsplash.com/photo-1581727299609-a74c5ab8352d?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'Fort Walton Beach', img: 'https://picsum.photos/seed/Fort Walton Beach/800/500' },
               { area: 'Niceville', img: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'N. Santa Rosa County', img: 'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&q=80&w=800&h=500' },
@@ -146,6 +146,7 @@ export function Home() {
                 key={area}
                 whileHover={{ y: -10 }}
                 className="group relative aspect-[16/10] rounded-2xl overflow-hidden cursor-pointer"
+                onClick={() => window.location.href = '/properties'}
               >
                 <img
                   src={img}
