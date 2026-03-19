@@ -138,7 +138,7 @@ export function Home() {
               { area: 'Navarre & Gulf Breeze', img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'Destin', img: 'https://images.unsplash.com/photo-1581727299609-a74c5ab8352d?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'Fort Walton Beach', img: 'https://picsum.photos/seed/Fort Walton Beach/800/500' },
-              { area: 'Niceville', img: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&q=80&w=800&h=500' },
+              { area: 'Niceville', img: 'https://images.unsplash.com/photo-1638660173594-a4e095833d49?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'N. Santa Rosa County', img: 'https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&q=80&w=800&h=500' },
               { area: 'N. Santa Rosa Beach', img: 'https://picsum.photos/seed/N. Santa Rosa Beach/800/500' },
             ].map(({ area, img }, i) => (
